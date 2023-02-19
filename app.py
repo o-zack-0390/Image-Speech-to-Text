@@ -8,8 +8,6 @@ cur_dir = "Tesseract-OCR"
 
 #"/usr/share/tesseract-ocr"
 
-st.write(os.listdir(cur_dir))
-
 st.write("exists(): " + str(os.path.exists(cur_dir)))
  
 st.write("isdir(): " + str(os.path.isdir(cur_dir)))
