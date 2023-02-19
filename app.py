@@ -4,7 +4,9 @@ import pyocr
 from PIL import Image
 
 
-cur_dir = "/usr/share/tesseract-ocr"
+cur_dir = "/usr/share"
+
+#"/usr/share/tesseract-ocr"
 
 st.write(os.listdir(cur_dir))
 
