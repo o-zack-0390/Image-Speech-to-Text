@@ -25,6 +25,6 @@ if uploaded_file:
       image=Image.open(uploaded_file)
 
       builder = pyocr.builders.TextBuilder(tesseract_layout=6)
-      text = tool.image_to_string(img, lang="jpn", builder=builder)
+      text = tool.image_to_string(image, lang="jpn", builder=builder)
 
       st.write(text)
