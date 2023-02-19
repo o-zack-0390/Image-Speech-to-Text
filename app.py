@@ -17,7 +17,7 @@ tool = tools[0]
 
 st.write(tool)
 
-uploaded_file=st.file_uploader("ファイルアップロード", type='png')
+uploaded_file=st.file_uploader("ファイルアップロード", type='jpg')
 
 if uploaded_file:
     
