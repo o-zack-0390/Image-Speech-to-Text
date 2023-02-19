@@ -8,8 +8,10 @@ cur_dir = "usr/share/tesseract-ocr"
 
 #"/usr/share/tesseract-ocr"
 
-if st.write("exists(): " + str(os.path.exists(cur_dir))) or st.write("isdir(): " + str(os.path.isdir(cur_dir))) or st.write("isfile(): " + str(os.path.isfile(cur_dir))):
-  st.write(os.listdir(cur_dir))
+st.write("exists(): " + str(os.path.exists(cur_dir)))
+st.write("isdir(): " + str(os.path.isdir(cur_dir)))
+st.write("isfile(): " + str(os.path.isfile(cur_dir))):
+st.write(os.listdir(cur_dir))
 
 tools = pyocr.get_available_tools()
 tool = tools[0]
