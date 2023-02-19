@@ -26,7 +26,7 @@ if uploaded_file:
       image=Image.open(uploaded_file)
 
       TESSERACT_PATH = "usr/share/tesseract-ocr"
-      TESSDATA_PATH  = "usr/share/tesseract-ocr/4.00/tessdata"
+      TESSDATA_PATH  = "usr/share/tesseract-ocr/4.00/tessdata/jpn.traineddata"
 
       st.write(os.environ["PATH"])
 
