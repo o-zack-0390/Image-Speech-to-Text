@@ -4,7 +4,7 @@ import pyocr
 from PIL import Image
 
 
-cur_dir = "/usr/share"
+cur_dir = "Tesseract-OCR"
 
 #"/usr/share/tesseract-ocr"
 
