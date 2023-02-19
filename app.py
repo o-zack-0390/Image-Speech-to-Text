@@ -14,3 +14,5 @@ st.write("isfile(): " + str(os.path.isfile(cur_dir)))
 
 tools = pyocr.get_available_tools()
 tool = tools[0]
+
+st.write(tool)
