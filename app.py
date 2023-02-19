@@ -4,7 +4,7 @@ import pyocr
 from PIL import Image
 
 
-cur_dir = "usr/share/terminfo"
+cur_dir = "usr/share/tesseract-ocr"
 
 #"/usr/share/tesseract-ocr"
 
