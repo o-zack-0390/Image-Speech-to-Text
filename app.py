@@ -4,7 +4,9 @@ import pyocr
 from PIL import Image
 
 
-cur_dir = "/usr/share/tesseract-ocr/tesseract.exe"
+cur_dir = "/usr/share/tesseract-ocr"
+
+st.write(os.listdir(cur_dir))
 
 st.write("exists(): " + str(os.path.exists(cur_dir)))
  
