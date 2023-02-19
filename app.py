@@ -28,6 +28,8 @@ if uploaded_file:
       TESSERACT_PATH = "usr/share/tesseract-ocr"
       TESSDATA_PATH  = "usr/share/tesseract-ocr/4.00/tessdata"
 
+      st.write(os.environ["PATH"])
+
       os.environ['PATH'] += os.pathsep + TESSERACT_PATH
       os.environ["TESSDATA_PREFIX"] = TESSDATA_PATH
 
