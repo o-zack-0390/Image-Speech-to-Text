@@ -16,3 +16,15 @@ tools = pyocr.get_available_tools()
 tool = tools[0]
 
 st.write(tool)
+
+uploaded_file=st.file_uploader("ファイルアップロード", type='png')
+
+if uploaded_file:
+    
+    if st.button("test start"):
+      image=Image.open(uploaded_file)
+
+      builder = pyocr.builders.TextBuilder(tesseract_layout=6)
+      text = tool.image_to_string(img, lang="jpn", builder=builder)
+
+      st.write(text)
