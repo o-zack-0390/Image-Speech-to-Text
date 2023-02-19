@@ -26,10 +26,13 @@ if uploaded_file:
       image=Image.open(uploaded_file)
 
       TESSERACT_PATH = "usr/share/tesseract-ocr"
-      TESSDATA_PATH  = "usr/share/tesseract-ocr/4.00/tessdata/jpn.traineddata"
+      TESSDATA_PATH  = "usr/share/tesseract-ocr/4.00/tessdata"
 
       os.environ['PATH'] += os.pathsep + TESSERACT_PATH
       os.environ["TESSDATA_PREFIX"] = TESSDATA_PATH
+
+      st.write(os.environ['PATH'])
+      st.write(os.environ["TESSDATA_PREFIX"])
 
       builder = pyocr.builders.TextBuilder(tesseract_layout=6)
       text = tool.image_to_string(image, lang="jpn", builder=builder)
