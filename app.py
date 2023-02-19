@@ -4,7 +4,7 @@ import pyocr
 from PIL import Image
 
 
-cur_dir = "/usr/share/tesseract-ocr"
+cur_dir = "/usr/share/tesseract-ocr/tesseract.exe"
 
 st.write("exists(): " + str(os.path.exists(cur_dir)))
  
@@ -23,6 +23,9 @@ if uploaded_file:
     
     if st.button("test start"):
       image=Image.open(uploaded_file)
+
+      path="/usr/share/tesseract-ocr"
+      os.environ['PATH'] = os.environ['PATH'] + path
 
       builder = pyocr.builders.TextBuilder(tesseract_layout=6)
       text = tool.image_to_string(image, lang="jpn", builder=builder)
