@@ -42,12 +42,16 @@ def Speech_to_Text():
 
   uploaded_file = st.file_uploader("ファイルアップロード", type='wav')
   r             = sr.Recognizer()
-  
-  with sr.AudioFile(uploaded_file) as source:
-    audio = r.record(source)
+
+  if uploaded_file:
+
+    if st.button("テキストに変換"):
     
-  with st.expander("Speech to Text"):
-    st.write(r.recognize_google(audio, language='ja-JP'))
+      with sr.AudioFile(uploaded_file) as source:
+        audio = r.record(source)
+        
+      with st.expander("Speech to Text"):
+        st.write(r.recognize_google(audio, language='ja-JP'))
 
 
 
