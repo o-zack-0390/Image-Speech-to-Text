@@ -29,7 +29,7 @@ def Speech_to_Text():
 
 st.markdown("## Image&Speech to Text")
 
-if st.selectbox("変換方法を選択",[ "Image to Text", "Speech to Text"]) == "Image to Text":
+if st.selectbox("変換方法を選択", [ "Image to Text", "Speech to Text"]) == "Image to Text":
   Image_to_Text()
 
 else:
