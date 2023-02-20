@@ -23,7 +23,7 @@ def Image_to_Text():
    os.environ['PATH'] = os.environ['PATH'] + path
    tools              = pyocr.get_available_tools()
    tool               = tools[0]
-   uploaded_file      = st.file_uploader("ファイルアップロード", type='jpg')
+   uploaded_file      = st.file_uploader("ファイルアップロード (.jpg)", type='jpg')
    
    if uploaded_file:
     
@@ -40,7 +40,7 @@ def Image_to_Text():
 
 def Speech_to_Text():
 
-  uploaded_file = st.file_uploader("ファイルアップロード", type='wav')
+  uploaded_file = st.file_uploader("ファイルアップロード (.wav)", type='wav')
   r             = sr.Recognizer()
 
   if uploaded_file:
