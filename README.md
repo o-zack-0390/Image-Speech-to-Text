@@ -1,1 +1,1 @@
-# Image-Sppech-to-Text
+# Image-Speech-to-Text
