@@ -49,9 +49,16 @@ def Speech_to_Text():
     
       with sr.AudioFile(uploaded_file) as source:
         audio = r.record(source)
-        
-      with st.expander("Speech to Text"):
-        st.write(r.recognize_google(audio, language='ja-JP'))
+
+      try:
+        text = r.recognize_google(audio, language='ja-JP')
+
+      except:
+        st.write("データサイズが無料枠を超過しています。ファイルサイズを小さくしてください")
+
+      else:
+        with st.expander("Speech to Text"):
+          st.write(text)
 
 
 
