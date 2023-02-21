@@ -31,10 +31,16 @@ def Image_to_Text():
 
         image   = Image.open(uploaded_file)
         builder = pyocr.builders.TextBuilder(tesseract_layout = 6)
-        text    = tool.image_to_string(image, lang = "jpn", builder = builder)
 
-        with st.expander("Image to Text"):
-          st.write(text)
+        try:
+          text = tool.image_to_string(image, lang = "jpn", builder = builder)
+
+        except:
+          st.write("データサイズが無料枠を超過しています. ファイルサイズを小さくしてください")
+
+        else:
+          with st.expander("Image to Text"):
+            st.write(text)
 
 
 
@@ -54,7 +60,7 @@ def Speech_to_Text():
         text = r.recognize_google(audio, language='ja-JP')
 
       except:
-        st.write("データサイズが無料枠を超過しています。ファイルサイズを小さくしてください")
+        st.write("データサイズが無料枠を超過しています. ファイルサイズを小さくしてください")
 
       else:
         with st.expander("Speech to Text"):
