@@ -38,7 +38,6 @@ Streamlit
 3. 「テキストに変換」を押す<br><br>
 
 <img width="593" alt="image" src="https://user-images.githubusercontent.com/116938721/220660467-7af39c89-cc8f-430d-8638-b2fc9c52e822.png">
-<br><br>
 
 画像ファイル<br>
 <a href="https://www.city.kasugai.lg.jp/covid19/1023611/1019477.html">新型コロナウイルス感染症の予防</a>
