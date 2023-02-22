@@ -29,8 +29,10 @@ Streamlit
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/116938721/220658035-16125175-2fdf-44ef-b7f2-f1d5ea2cb0de.png">
 
 音声ファイル<br>
-<a href="https://www.city.kasu<br>
-         
+<a href="https://www.city.kasugai.lg.jp/shisei/gyousei/koho/koe/1016637.html">声の広報かすがい　4月15日号（NO.698）</a>
+<br><br>
+
+<h3>使用方法(Image to Text)
 1. 「変換方法の選択」で「Image to Text」を選択<br>
 2.  jpgファイルをアップロード<br>
 3. 「テキストに変換」を押す<br><br>
