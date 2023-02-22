@@ -34,7 +34,7 @@ Streamlit
 
 <h3>使用方法(Image to Text)</h3>
 1. 「変換方法の選択」で「Image to Text」を選択<br>
-2.  jpgファイルをアップロード<br>
+2.　jpgファイルをアップロード<br>
 3. 「テキストに変換」を押す<br><br>
 
 <img width="593" alt="image" src="https://user-images.githubusercontent.com/116938721/220660467-7af39c89-cc8f-430d-8638-b2fc9c52e822.png">
