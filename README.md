@@ -32,7 +32,7 @@ Streamlit
 <a href="https://www.city.kasugai.lg.jp/shisei/gyousei/koho/koe/1016637.html">声の広報かすがい　4月15日号（NO.698）</a>
 <br><br>
 
-<h3>使用方法(Image to Text)
+<h3>使用方法(Image to Text)</h3>
 1. 「変換方法の選択」で「Image to Text」を選択<br>
 2.  jpgファイルをアップロード<br>
 3. 「テキストに変換」を押す<br><br>
