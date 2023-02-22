@@ -21,3 +21,9 @@ SpeechRecognition<br><br>
 
 <h3>フレームワーク</h3>
 Streamlit
+
+<h3>使用方法(Speech to Text)</h3>
+1. 「変換方法の選択」で「Speeech to Text」を選択<br>
+2.  waveファイルをアップロード<br>
+3.  「テキストに変換」を押す<br><br>
+<img width="579" alt="image" src="https://user-images.githubusercontent.com/116938721/220658035-16125175-2fdf-44ef-b7f2-f1d5ea2cb0de.png">
