@@ -13,4 +13,11 @@
 Google社の文字起こしサイトを使用する方法も考えたが、「Google社の無料枠だと使用回数・使用容量に制限が掛かる」という理由から回数に制限がないstreamlitで実装することにした。<br>
 
 <h3>開発言語</h3>
-python
+python<br><br>
+
+<h3>ライブラリ</h3>
+Tesseract-Ocr<br>
+SpeechRecognition<br><br>
+
+<h3>フレームワーク</h3>
+Streamlit
