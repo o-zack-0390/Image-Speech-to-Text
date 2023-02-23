@@ -24,7 +24,7 @@ Tesseract-Ocr<br>
 SpeechRecognition<br><br>
 
 <h3>フレームワーク</h3>
-Streamlit
+Streamlit<br><br>
 
 <h3>使用方法(Speech to Text)</h3>
 1. 「変換方法の選択」で「Speeech to Text」を選択<br>
