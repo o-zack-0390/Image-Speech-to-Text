@@ -45,5 +45,5 @@ Streamlit<br><br>
 
 <img width="593" alt="image" src="https://user-images.githubusercontent.com/116938721/220660467-7af39c89-cc8f-430d-8638-b2fc9c52e822.png">
 
-画像ファイル<br>
+画像ファイル (感染力が高い「変異株」の箇所をスクショした)<br>
 <a href="https://www.city.kasugai.lg.jp/covid19/1023611/1019477.html">新型コロナウイルス感染症の予防</a>
