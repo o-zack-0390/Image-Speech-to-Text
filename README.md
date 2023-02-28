@@ -1,5 +1,7 @@
 # Image-Speech-to-Text
-URL : https://github.com/o-zack-0390/Image-Speech-to-Text
+URL : https://github.com/o-zack-0390/Image-Speech-to-Text<br>
+「😴」が表示されてる場合は「Yes, get this app back up!」を押して起動してください。
+
 <h3>概要</h3>
 画像ファイルと音声ファイルから文字起こしをする。無料枠を使用しているため以下の制限がある。<br><br>
 <ul>
