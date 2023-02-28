@@ -1,5 +1,5 @@
 # Image-Speech-to-Text
-URL : https://github.com/o-zack-0390/Image-Speech-to-Text<br>
+URL : <a href="https://github.com/o-zack-0390/Image-Speech-to-Text">Image-Speech-to-Text</a><br>
 「😴」が表示されてる場合は「Yes, get this app back up!」を押して起動してください。
 
 <h3>概要</h3>
