@@ -35,7 +35,7 @@ Streamlit<br><br>
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/116938721/220658035-16125175-2fdf-44ef-b7f2-f1d5ea2cb0de.png">
 
 音声ファイル<br>
-<a href="https://www.city.kasugai.lg.jp/shisei/gyousei/koho/koe/1016637.html">声の広報かすがい　4月15日号（NO.698）</a>
+<a href="https://www.city.kasugai.lg.jp/_res/projects/default_project/_page_/001/016/637/310415-02a.mp3">声の広報かすがい　4月15日号（NO.698）</a>
 <br><br>
 
 <h3>使用方法(Image to Text)</h3>
