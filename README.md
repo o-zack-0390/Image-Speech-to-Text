@@ -1,6 +1,6 @@
 # Image-Speech-to-Text
 URL : <a href="https://o-zack-0390-image-speech-to-text-app-hqfvv0.streamlit.app/">Image-Speech-to-Text</a><br>
-「😴」が表示されてる場合は「Yes, get this app back up!」を押して起動してください。
+「😴」が表示されてる場合は「Yes, get this app back up!」を押して起動してください。(1分程かかります)
 
 <h3>概要</h3>
 画像ファイルと音声ファイルから文字起こしをする。無料枠を使用しているため以下の制限がある。<br><br>
