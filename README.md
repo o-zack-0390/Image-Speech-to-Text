@@ -1,4 +1,5 @@
 # Image-Speech-to-Text
+<img width="579" alt="image" src="https://user-images.githubusercontent.com/116938721/220658035-16125175-2fdf-44ef-b7f2-f1d5ea2cb0de.png">
 
 <h3>概要</h3>
 画像ファイルと音声ファイルから文字起こしをする。無料枠を使用しているため以下の制限がある。<br><br>
