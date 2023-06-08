@@ -24,6 +24,7 @@ def Image_to_Text():
    tools              = pyocr.get_available_tools()
    tool               = tools[0]
    uploaded_file      = st.file_uploader("ファイルアップロード (.jpg)", type='jpg')
+   option = st.selectbox("言語を選択", ["jpn", "eng"])
    
    if uploaded_file:
     
@@ -33,7 +34,7 @@ def Image_to_Text():
         builder = pyocr.builders.TextBuilder(tesseract_layout = 6)
 
         try:
-          text = tool.image_to_string(image, lang = 'jpn', builder = builder)
+          text = tool.image_to_string(image, lang = option, builder = builder)
 
         except:
           st.write("データサイズが無料枠を超過しています. ファイルサイズを小さくしてください")
