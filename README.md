@@ -1,5 +1,5 @@
 # Image-Speech-to-Text
-URL : <a href="https://o-zack-0390-image-speech-to-text-app-hqfvv0.streamlit.app/">Image-Speech-to-Text</a><br>
+URL : <a href="https://o-zack-0390-image-speech-to-text-app-0lr23w.streamlit.app/">Image-Speech-to-Text</a><br>
 「😴」が表示されてる場合は「Yes, get this app back up!」を押して起動してください。(1分程かかります)
 
 <h3>概要</h3>
@@ -10,6 +10,7 @@ URL : <a href="https://o-zack-0390-image-speech-to-text-app-hqfvv0.streamlit.app
   <li>容量200MBとなっているが無料枠なので実際は20M程度</li>
   <li>データサイズが無料枠を超過している場合はエラーメッセージを表示</li>
   <li>容量が大きいサイズは無料枠を超えないサイズまで分割して使用することになる</li>
+  <li>翻訳形式は日本語と英語から選択</li>
 </ul>
 スマホから使用することも多いため不要な処理を極力排除してレスポンス時間が短くなるようにしている。<br><br>
 
