@@ -1,4 +1,6 @@
 # 文字起こしアプリ(音声・画像 → テキスト)
+URL : <a href="https://o-zack-0390-image-speech-to-text-app-2l7kn9.streamlit.app/">Image&Speech to Text</a><br>
+「😴」が表示されてる場合は「Yes, get this app back up!」を押して起動してください。(1分程かかります)
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/116938721/220658035-16125175-2fdf-44ef-b7f2-f1d5ea2cb0de.png">
 
 <h3>概要</h3>
